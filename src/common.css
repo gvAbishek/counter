@@ -1,0 +1,16 @@
+
+.navbar, .footer {
+    background-color: black; 
+    color: gold; 
+    text-align: center; 
+    border: 2px solid gold; 
+    padding: 10px; 
+    position: relative; 
+    width: 100%;
+  }
+  
+  .footer {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+  }

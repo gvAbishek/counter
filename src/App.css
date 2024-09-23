@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+#back {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-card {
+  text-align: center;
+  border: 2px solid gold;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #1a1a1a;
+  color: white;
+  height: 400px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#prelims-title {
+  color: gold;
+  font-size: 2.5rem;
+  
+  
+}
+
+#prelims-days {
+  font-size: 9.0rem;
+  color: #fff;
+}
+
+#prelims-text {
+  color: #ffffff;
+  font-size: 2rem;
+  
+}
+
+
+#mains-title {
+  color: gold;
+  font-size: 2.5rem;
+}
+
+#mains-days {
+  font-size: 9.0rem;
+  color: #fff;
+}
+
+#mains-text {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+
+#accenture-title {
+  color: gold;
+  font-size: 2.5rem;
+}
+
+#accenture-days {
+  font-size: 9.0rem;
+  color: #fff;
+}
+
+#accenture-text {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.ant-row {
+  width: 100%;
+}
